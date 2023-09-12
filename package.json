@@ -1,0 +1,11 @@
+{
+    "name": "render-simple-server",
+    "version": "1.0.0",
+    "description": "Um servidor simples para Render",
+    "main": "server.js",
+    "dependencies": {},
+    "scripts": {
+      "start": "node server.js"
+    }
+  }
+  
