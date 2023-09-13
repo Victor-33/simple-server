@@ -6,7 +6,7 @@ const axios = require('axios');
 async function keepServerActive() {
   try {
     // Substitua 'http://seusite.com' pela URL do seu servidor
-    const response = await axios.get('http://seusite.com');
+    const response = await axios.get('https://simple-service-g6qy.onrender.comhttps://simple-service-g6qy.onrender.com');
     console.log('Solicitação bem-sucedida:', response.status);
   } catch (error) {
     console.error('Erro na solicitação:', error.message);
